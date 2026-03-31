@@ -18,6 +18,7 @@ var init = function (window) {
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM SETUP ////////////////////////////
         ////////////////////////////////////////////////////////////
+
         
         // TODO 1 : Declare and initialize our variables
 
@@ -86,7 +87,7 @@ game.checkCirclePosition(circles[ 4 ])
           
             }
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -118,7 +119,7 @@ game.checkCirclePosition(circles[ 4 ])
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
         
-        /////////////////////////////////////////////////////////////
+      /////////////////////////////////////////////////////////////
         // --- NO CODE BELOW HERE  --- DO NOT REMOVE THIS CODE --- //
         /////////////////////////////////////////////////////////////
         
@@ -140,3 +141,4 @@ if((typeof process !== 'undefined') &&
     // here, export any references you need for tests //
     module.exports = init;
 }
+
